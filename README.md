@@ -17,10 +17,24 @@
 
 ### 快速安装
 
+#### 方法一：直接运行（推荐）
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/RY-zzcn/frpv0.60.0-installer/main/frp_installer.sh)
+```
+
+或者使用wget：
+
+```bash
+bash <(wget -O- https://raw.githubusercontent.com/RY-zzcn/frpv0.60.0-installer/main/frp_installer.sh)
+```
+
+#### 方法二：下载后运行
+
 1. 下载脚本:
 
 ```bash
-wget https://raw.githubusercontent.com/yourusername/frp-installer/main/frp_installer.sh -O frp_installer.sh
+wget https://raw.githubusercontent.com/RY-zzcn/frpv0.60.0-installer/main/frp_installer.sh -O frp_installer.sh
 ```
 
 2. 添加执行权限:
